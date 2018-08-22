@@ -86,7 +86,7 @@ npm run dev   //开启实时编译，或者直接执行 wepy build --watch
     └── util.js
 ```
 
-小程序开发框架提供了自己的视图层描述语言 WXML 和 WXSS，以及基于 JavaScript 的逻辑层框架，并在视图层与逻辑层间提供了数据传输和事件系统，能够让开发者能够专注于数据与逻辑。
+小程序开发框架提供了自己的视图层描述语言 WXML 和 WXSS，以及基于 JavaScript 的逻辑层框架，并在视图层与逻辑层间提供了数据传输和事件系统，能够让开发者能够专注于数据与逻辑。关于原生小程序开发见 [miniprogram-demo](https://github.com/jiwenxing/miniprogram-demo)
 
 ### Wepy 开发框架
 
