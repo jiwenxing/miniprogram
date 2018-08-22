@@ -1,3 +1,7 @@
+# wepy-demo
+
+伴随小程序和小游戏越来越火，其开发技能也逐渐变得重要起来，最近接手了一个小程序项目，对小程序有了比较深入的了解，其开发也没有想象的那么神秘，这里通过一个基于 Wepy 框架的小程序 Demo 介绍从零上手开发一个小程序的过程。
+
 
 ## 小程序 & 服务号 & 订阅号
 
@@ -9,7 +13,7 @@
 
 
 
-## 小程序与 H5
+## 小程序 VS H5
 
 小程序也是使用前端的一些技术 js、wxss(css)、wxml(html) 开发，那为什么小程序相较于 H5 会有几乎接近原生 APP 的使用体验呢，他们之间有什么本质的区别？
 
@@ -37,16 +41,16 @@
 
 开发小程序涉及到的工具及框架如下：
 
-- `[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)`，主要用来在开发过程中实时预览效果
-- `[npm](https://www.npmjs.com/)`，管理依赖，直接安装 [node](https://nodejs.org/en/) 即可
-- `[Wepy 小程序组件化开发框架](https://tencent.github.io/wepy/index.html)`，微信官网推出的类似于 Vue.js 的组件化开发框架，提高开发效率
+- **[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)**，主要用来在开发过程中实时预览效果
+- **[npm](https://www.npmjs.com/)**，管理依赖，直接安装 [node](https://nodejs.org/en/) 即可
+- **[Wepy 小程序组件化开发框架](https://tencent.github.io/wepy/index.html)**，微信官网推出的类似于 Vue.js 的组件化开发框架，提高开发效率
 
 开发者工具直接下载安装，npm 及 Wepy 通过命令行即可安装，这里以 OSX 系统为例
 
 ```bash
 brew install node  // 安装 node，自带 npm
 npm install wepy-cli -g  // 全局安装或更新 WePY 命令行工具
-wepy init standard miniprogram-demo // 初始化一个 Wepy 项目，这里会用到前面申请的 AppID
+wepy init standard wepy-demo // 初始化一个 Wepy 项目，这里会用到前面申请的 AppID
 npm install   // 安装依赖 
 npm run dev   //开启实时编译，或者直接执行 wepy build --watch
 ```
@@ -107,7 +111,7 @@ WePY 参考了 Vue 等现有框架的一些语法风格和功能特性，对原�
 
 ### 注意事项
 
-
+补充小程序框架自带组件等一些功能介绍
 
 
 
